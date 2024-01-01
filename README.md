@@ -4,7 +4,7 @@ A web based simulator to help gram panchayats to plan their village development 
 
 # Live demo:
 
-[https://village-sim.vercel.app/](https://village-sim.vercel.app/)
+[https://village-sim.vercel.app/](https://gramsim.vercel.app/)
 
 # Problem statement
 
