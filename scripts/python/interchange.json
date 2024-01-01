@@ -1,0 +1,46 @@
+{
+    "old": {
+        "houses": {
+            "key:uuid": {
+                "floors": 1,
+                "central_point": {
+                    "long": 77.56,
+                    "lat": 25.61
+                },
+                "nearest_dist": [
+                    {
+                        "facility_type": "water_facility",
+                        "id": "uuid",
+                        "dist": 39
+                    }
+                ]
+            }
+        },
+        "facilities": {
+            "water_facility": {
+                "key:uuid": {
+                    "central_point": {
+                        "long": 77.56,
+                        "lat": 25.61
+                    }
+                }
+            },
+            "health": {
+                "key:uuid": {
+                    "central_point": {
+                        "long": 77.56,
+                        "lat": 25.61
+                    }
+                }
+            }
+        }
+    },
+    "new": {
+        "key": "uuid",
+        "facility_type": "water_facility",
+        "central_point": {
+            "long": 77.56,
+            "lat": 25.61
+        }
+    }
+}

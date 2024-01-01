@@ -1,0 +1,50 @@
+{
+  "name": "panchayat-interiit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.92.1",
+    "@react-three/fiber": "^8.15.12",
+    "@react-three/offscreen": "^0.0.8",
+    "@tabler/icons-react": "^2.44.0",
+    "@types/geojson": "^7946.0.13",
+    "@types/three": "^0.159.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "daisyui": "^4.4.20",
+    "geojson": "^0.5.0",
+    "konva": "^9.2.3",
+    "leva": "^0.9.35",
+    "postcss": "^8.4.32",
+    "queue-typescript": "^1.0.1",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "react-full-screen": "^1.1.1",
+    "react-konva": "^18.2.10",
+    "react-loader-spinner": "^6.1.0",
+    "react-screen-orientation": "^0.0.4",
+    "tailwindcss": "^3.3.6",
+    "three": "^0.159.0",
+    "tweenjs": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
